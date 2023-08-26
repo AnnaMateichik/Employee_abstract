@@ -13,8 +13,8 @@ public class SalaryEmployee extends Employee{
 
     @Override
     public double calcSalary() {
-        if (salary > Salary.minSalary)
-            return this.salary;
+        if (salary > Salary.minSalary){
+            return this.salary;}
         return Salary.minSalary;
     }
 

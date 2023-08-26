@@ -12,7 +12,7 @@ abstract class Employee {
 
     public abstract double calcSalary();
     public String toString(){
-        return id + " " + name + " " + age;
+        return id + " " + name + " " + age + " ";
     }
 
 

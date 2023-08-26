@@ -25,9 +25,10 @@ public class MainEmployee {
     print(e);
     }
 
-    public static void print(Employee[] e){
-        for (int i = 0; e[i] != null; i++){
-            System.out.println("Employee" + (i+1) + " " + e[i].calcSalary());
+    public static void print(Employee[] employees){
+        for (int i = 0; employees[i] != null; i++){
+            System.out.println("Employee" + (i+1) + " " + employees[i].toString()+" " );
+//            System.out.println("Employee" + (i+1) + " " + employees[i].calcSalary());
         }
     }
 
